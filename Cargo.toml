@@ -1,0 +1,13 @@
+[package]
+name = "executorch-yolox"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+apple = ["berry-executorch/apple"]
+
+[dependencies]
+imageproc = "*"
+log = "*"
+anyhow = "*"
+berry-executorch = { path = "./berry-executorch" }
